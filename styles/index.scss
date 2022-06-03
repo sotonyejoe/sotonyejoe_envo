@@ -1,15 +1,13 @@
 @import "./variables";
 @import "./helpers";
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap");
 
 // variables
-
-
 
 // Global Styles
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   margin: 0;
 }
 
@@ -28,7 +26,6 @@ body {
       color: white;
       width: 50%;
       justify-content: space-between;
-
     }
 
     .nav {
@@ -45,8 +42,6 @@ body {
       }
 
       &-list {
-
-
         list-style: none;
         display: flex;
         margin: 0;
@@ -61,7 +56,6 @@ body {
           }
         }
       }
-
     }
   }
 
@@ -72,7 +66,6 @@ body {
     z-index: -1;
 
     &_inner {
-
       display: flex;
       height: 700px;
 
@@ -100,10 +93,8 @@ body {
               right: 30%;
               bottom: 10%;
             }
-
           }
         }
-
       }
 
       .right {
@@ -134,6 +125,258 @@ body {
             right: 134px;
           }
         }
+      }
+    }
+  }
+}
+.reason {
+  position: absolute;
+  width: 100%;
+
+  &_inner {
+    display: flex;
+    height: 70%;
+    margin: 0 auto;
+
+    .left {
+      align-items: center;
+      margin: 10px;
+
+      .left_reason_wrapper {
+        height: 70%;
+        width: 100%;
+
+        .left_reason-wc {
+          width: 552px;
+          position: relative;
+
+          .green-box_bg {
+            background-color: $primary;
+            position: absolute;
+            left: 30px;
+            height: 635px;
+            width: 552px;
+            top: 32px;
+
+            .play-button {
+              position: absolute;
+              z-index: 10;
+              width: 116px;
+              height: 116px;
+              left: 190px;
+              top: 220px;
+            }
+            .reason-image {
+              position: relative;
+              width: 552px;
+              height: 635px;
+              top: -25px;
+              left: -30px;
+            }
+          }
+        }
+      }
+    }
+    .right {
+      align-items: center;
+      width: 100%;
+
+      .right_reason_wrapper {
+        width: 100%;
+        height: 70%;
+
+        .why {
+          width: 614px;
+          height: 116px;
+          font-weight: 700;
+          font-size: 48px;
+          line-height: 58.09px;
+        }
+        .right-txt-content {
+          width: 100%;
+          height: 70%;
+
+          .txt-content {
+            width: 572px;
+            height: 199px;
+            font-weight: 400px;
+            font-size: 18px;
+            line-height: 22px;
+          }
+        }
+      }
+    }
+  }
+}
+.report {
+  position: absolute;
+  width: 100%;
+  top: 1777px;
+
+  &-inner {
+    display: flex;
+    background-color: $primary;
+    width: 100%;
+    height: 809px;
+    justify-content: center;
+    color: white;
+
+    .report-container {
+      width: 90%;
+      position: absolute;
+      justify-items: center;
+      margin-left: -40px;
+
+      .report-text {
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-bottom: -1px;
+      }
+
+      img {
+        margin-top: -200px;
+      }
+    }
+    .recent-report {
+      position: relative;
+      display: flex;
+      left: 100px;
+      align-items: center;
+      padding-left: -40px;
+      margin-left: -200px;
+
+      .rec-box {
+        background-color: #f4f4f4;
+        width: 300px;
+        height: 424px;
+        border-radius: 8px;
+        color: black;
+        padding: 4px;
+        margin: 6px;
+        .polute-image {
+          width: 100%;
+        }
+        .pollution-date {
+          display: flex;
+          justify-content: space-around;
+
+          .ogoni {
+            position: relative;
+            font-weight: 500px;
+            font-size: 18px;
+            height: 22px;
+            margin-left: -20px;
+            top: -20px;
+            color: #5e5e5e;
+          }
+          .date {
+            position: relative;
+            font-weight: 400px;
+            font-size: 14px;
+            top: -13px;
+            color: #5e5e5e;
+          }
+        }
+        .pollution-text {
+          width: 274px;
+          height: 86px;
+          p {
+            position: relative;
+            font-weight: 400px;
+            font-size: 15px;
+            line-height: 18px;
+            top: -35px;
+          }
+        }
+      }
+    }
+  }
+  .new-btn {
+    position: absolute;
+    top: 700px;
+    left: 520px;
+    .primary {
+      background-color: white;
+      color: $primary;
+    }
+  }
+}
+.niger-delta {
+  width: 100%;
+  height: 70%;
+  position: relative;
+  top: 1900px;
+
+  .delta-inner {
+    width: 100%;
+    align-items: center;
+
+    .delta-container {
+      width: 705px;
+
+      .delta-text {
+        font-family: Inter;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 58px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-left: 37px;
+      }
+    }
+    .delta-images {
+      display: flex;
+      width: 1226px;
+      height: 400px;
+      position: absolute;
+      margin: 30px;
+
+      .dimage1 {
+        img {
+          margin-top: -4px;
+        }
+      }
+      .dimage2 {
+        img {
+          margin-top: -4px;
+        }
+      }
+      .dimage3 {
+        img {
+          margin-top: -4px;
+        }
+      }
+      .dimage4 {
+        img {
+          margin-top: -4px;
+        }
+      }
+    }
+  }
+}
+.footer {
+  width: 100%;
+  // margin-top: 152px;
+
+  .footer-inner {
+    background-color: $primary;
+    color: white;
+    position: relative;
+    width: 100%;
+    height: 86px;
+    top: 2600px;
+
+    .footer-container {
+      text-align: center;
+      position: relative;
+      top: 20px;
+
+      #mat{ 
+        font-weight:900px;
       }
     }
   }
